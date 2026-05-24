@@ -4,12 +4,22 @@ if (currentYear) {
   currentYear.textContent = new Date().getFullYear();
 }
 
+const markImageFallback = (image) => {
+  const screenshotCard = image.closest(".screenshot-card");
+
+  if (screenshotCard) {
+    screenshotCard.classList.add("has-missing-image");
+  }
+
+  image.classList.add("is-hidden");
+};
+
 document.querySelectorAll("img[data-fallback]").forEach((image) => {
   if (image.complete && image.naturalWidth === 0) {
-    image.classList.add("is-hidden");
+    markImageFallback(image);
   }
 
   image.addEventListener("error", () => {
-    image.classList.add("is-hidden");
+    markImageFallback(image);
   });
 });
