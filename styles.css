@@ -434,13 +434,6 @@ h3 {
   font-size: 0.82rem;
 }
 
-.nh-icon {
-  display: inline-flex;
-  width: 12px;
-  color: var(--color-teal);
-  flex: 0 0 auto;
-}
-
 .nh-outline-icon {
   display: block;
   width: 100%;
