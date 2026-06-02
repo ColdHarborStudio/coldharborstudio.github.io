@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Cold Harbor Studio favicon</title>
+  <desc id="desc">Simplified lighthouse and harbor icon.</desc>
+  <rect width="512" height="512" rx="112" fill="#0F2239"/>
+  <rect y="358" width="512" height="154" fill="#234B66"/>
+  <path d="M256 148 66 218 256 250 446 218Z" fill="#A6C9D2" opacity="0.28"/>
+  <path d="M120 384 194 326 278 356 365 326 438 384 408 420H108Z" fill="#234B66"/>
+  <path d="M128 328 184 282 238 328Z" fill="#4FA6B6"/>
+  <rect x="148" y="328" width="74" height="56" fill="#F4F7F8"/>
+  <rect x="172" y="348" width="28" height="36" fill="#234B66"/>
+  <path d="M222 352 242 152H300L320 352Z" fill="#F4F7F8"/>
+  <path d="M270 352 300 152 320 352Z" fill="#D7E1E6"/>
+  <rect x="232" y="218" width="68" height="26" fill="#4FA6B6"/>
+  <rect x="248" y="282" width="26" height="30" fill="#234B66"/>
+  <rect x="214" y="128" width="84" height="40" fill="#4FA6B6"/>
+  <rect x="232" y="136" width="48" height="26" fill="#A6C9D2"/>
+  <rect x="198" y="168" width="116" height="20" rx="6" fill="#F4F7F8"/>
+  <path d="M208 128 256 86 304 128Z" fill="#F4F7F8"/>
+  <path d="M256 66v26" stroke="#F4F7F8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="96" y="420" width="320" height="14" rx="7" fill="#A6C9D2"/>
+  <rect x="138" y="452" width="238" height="13" rx="6.5" fill="#A6C9D2"/>
+  <rect x="176" y="478" width="160" height="10" rx="5" fill="#A6C9D2" opacity="0.9"/>
+</svg>
