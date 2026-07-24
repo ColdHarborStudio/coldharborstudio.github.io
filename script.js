@@ -46,6 +46,7 @@ if (screenshotTriggers.length > 0) {
 
   const closeButton = dialog.querySelector(".image-viewer__close");
   const fullImage = dialog.querySelector(".image-viewer__image");
+  let originatingTrigger = null;
 
   closeButton.addEventListener("click", () => {
     dialog.close();
@@ -54,6 +55,15 @@ if (screenshotTriggers.length > 0) {
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) {
       dialog.close();
+    }
+  });
+
+  dialog.addEventListener("close", () => {
+    fullImage.removeAttribute("src");
+
+    if (originatingTrigger) {
+      originatingTrigger.focus();
+      originatingTrigger = null;
     }
   });
 
@@ -67,6 +77,7 @@ if (screenshotTriggers.length > 0) {
 
       fullImage.src = image.currentSrc || image.src;
       fullImage.alt = image.alt;
+      originatingTrigger = trigger;
       dialog.showModal();
     });
   });
