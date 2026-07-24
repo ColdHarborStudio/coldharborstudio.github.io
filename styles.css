@@ -442,41 +442,33 @@ h3 {
     var(--color-white);
 }
 
-.memorypieces-demo img,
-.app-icon-demo img {
+.memorypieces-demo img {
   display: block;
   width: 100%;
   border-radius: 22%;
   box-shadow: 0 18px 42px rgba(16, 25, 31, 0.14);
 }
 
-.app-icon-demo {
-  width: min(100%, 280px);
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 22px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 247, 248, 0.92)),
-    var(--color-white);
-}
-
-.firstset-icon-demo {
-  width: min(260px, 60vw);
-  border: 0;
-  border-radius: 0;
-  padding: 0;
+.firstset-app-icon-container {
+  width: min(280px, 65vw);
+  justify-self: center;
   background: transparent;
+  border: 0;
+  box-shadow: none;
+  overflow: visible;
 }
 
-.app-icon-demo .firstset-app-icon {
+.firstset-app-icon {
   display: block;
-  width: min(260px, 60vw);
+  width: min(280px, 65vw);
   height: auto;
-  border-radius: 0;
   object-fit: contain;
   background: transparent;
+  border: 0;
+  border-radius: 0;
   box-shadow: none;
-  filter: drop-shadow(0 18px 32px rgba(15, 35, 65, 0.16));
+  outline: none;
+  filter: drop-shadow(0 18px 28px rgba(18, 43, 76, 0.14));
 }
 
 .safety-note {
