@@ -540,12 +540,14 @@ h3 {
   box-shadow: 0 18px 42px rgba(16, 25, 31, 0.14);
 }
 
-.ladderly-app-icon-container {
+.ladderly-app-icon-container,
+.freezerfiles-app-icon-container {
   width: min(280px, 65vw);
   justify-self: center;
 }
 
-.ladderly-app-icon {
+.ladderly-app-icon,
+.freezerfiles-app-icon {
   display: block;
   width: 100%;
   height: auto;
